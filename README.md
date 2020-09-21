@@ -15,10 +15,10 @@
 1. `/api/users/` (GET)
     - Fetch all the user and display it
     - It also support search query parameter
-    	1. Name - `/api/users/?name=john` search for user with their frist and last name ( it is case insensitive )
-    	2. Sort - `/api/users/?sort=-field_name` sort users on ascednding or descending order base of the field provided ('-' indecate descending order)
-    	3.	limit - `/api/users/?limit=20` limt the content to some value
-    	4. page - `/api/users/?page=2` show all content of page 2
+    	1. Name - `/api/users/?name=john` search for user with their frist and last name ( it is case insensitive ).
+    	2. Sort - `/api/users/?sort=-field_name` sort users on ascednding or descending order base of the field provided ('-' indecate descending order).
+    	3.	limit - `/api/users/?limit=20` limt the content of the page (default=5).
+    	4. page - `/api/users/?page=2` show all content of page 2.
 
 2. `/api/users/` (POST)
     -	Create New User
