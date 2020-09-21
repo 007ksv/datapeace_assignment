@@ -35,7 +35,7 @@
 ---
 
 # Installation Guide
-1. `git clone https://www.github.com/007/datapeace_assignment.git`
+1. `git clone https://github.com/007ksv/datapeace_assignment.git`
 2. `pip3 install -r requirements.txt`
 3. `python manage.py makemigrations`
 4. `python manage.py migrate`
