@@ -1,4 +1,4 @@
-![alt text](hps://www.django-rest-framework.org/img/logo.png)
+![alt text](https://www.django-rest-framework.org/img/logo.png)
 # Creating REST api for User using rest_framework
 ##### User should have the following fields
 - ID
