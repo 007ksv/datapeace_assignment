@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from rest_framework.response import Response
-from rest_framework.renderers import JSONRenderer
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
 from .models import CustomUser
 from rest_framework.views import APIView
@@ -87,7 +86,6 @@ class UserDetail(APIView):
 	def put(self, request, pk):
 		user = self.get_user(pk)
 		if user:
-			data = JSONRenderer().render(request.data)
 			serializer = CustomUserSerializer(instance=user, data=request.data, partial=True)
 			if serializer.is_valid():
 				serializer.save()
